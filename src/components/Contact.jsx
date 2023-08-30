@@ -20,8 +20,19 @@ export default function Contact(){
                             </div>
                         </form>
                     </div>
-                    <div>
-                        <div className="contact-info"></div>
+                    <div className="contact-info-layout">
+                        <div className="contact-info text">
+                            <p>PHONE</p>
+                            <p className="subtitle">+48 726 639 709</p>
+                        </div>
+                        <div className="contact-info text">
+                            <p>ADDRESS</p>
+                            <p className="subtitle">Poland, Kielce</p>
+                        </div>
+                        <div className="contact-info text">
+                            <p>EMAIL</p>
+                            <p className="subtitle">julia.zachariasz.arc@gmail.com</p>
+                        </div>
                     </div>
                 </div>
             </div>

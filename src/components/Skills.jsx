@@ -45,6 +45,40 @@ export default function Skills(){
                                     </ul>
                                 </div>
                             </div>
+                            <div className="skills-smaller-devices-block">
+                                <div className="skills-smaller-devices-area">
+                                    <p className="text">Frontend</p>
+                                    <ul className="subtitle modified-list">
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>Bootstrap5</li>
+                                        <li>Bulma</li>
+                                        <li>SASS</li>
+                                    </ul>
+                                </div>
+                                <div className="skills-smaller-devices-area">
+                                    <p className="text">Backend</p>
+                                    <ul className="subtitle modified-list">
+                                        <li>JavaScript</li>
+                                        <li>React</li>
+                                        <li>Express</li>
+                                        <li>MongoDB</li>
+                                        <li>Mongoose</li>
+                                    </ul>
+                                </div>
+                                <div className="skills-smaller-devices-area">
+                                    <p className="text">Tools</p>
+                                    <ul className="subtitle modified-list">
+                                        <li>VS code</li>
+                                        <li>Git</li>
+                                        <li>Bash</li>
+                                        <li>Photoshop</li>
+                                        <li>Figma</li>
+                                        <li>Canva</li>
+                                        <li>NodeJS</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -1,19 +1,54 @@
+.picture{
+    right: 0;
+    position: absolute;
+    z-index: 800;
+}
+.picture-layout{
+    position: absolute;
+    z-index: 900;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+.picture-layout .geometric {
+    left: 0;
+}
+.my-face{
+    width: 18rem;
+    z-index: 990;
+}
+.second-page-picture{
+    position: absolute;
+    z-index: 990;
+}
+.portfolio-background-images{
+    position: relative;
+}
+.portfolio-shadows-picture{
+    height: 120rem;
+    position: absolute;
+    right: 3rem;
+}
+.portfolio-sphere {
+    position: absolute;
+    z-index: 990;
+}
+#orange-sphere-container{
+    left: 0;
+}
+#purple-sphere-container{
+    right: 0;
+}
+#pink-sphere-container{
+    left: 0;
+}
+.greeting-smaller-dev-decoration{
+    display: none;
+}
+
 @media (min-width:1280px) {
     .picture{
-        right: 0;
-        position: absolute;
-        z-index: 800;
         width: 68rem;
-    }
-    .picture-layout{
-        position: absolute;
-        z-index: 900;
-        width: 100vw;
-        display: flex;
-        flex-direction: row;
-    }
-    .picture-layout .geometric {
-        left: 0;
     }
     .picture-layout .sun {
         width: 35rem;
@@ -24,13 +59,7 @@
         height: 65rem;
         right: 3rem;
     }
-    .my-face{
-        width: 18rem;
-        z-index: 990;
-    }
     .second-page-picture{
-        position: absolute;
-        z-index: 990;
         width: 60rem;
     }
     .blob-picture{
@@ -38,18 +67,10 @@
         right: 8rem;
     }
     .sphere-picture{
-        z-index: 1000;
+        z-index: 990;
         width: 28rem;
         top: 40rem;
         right: 41.7rem;
-    }
-    .portfolio-background-images{
-        position: relative;
-    }
-    .portfolio-shadows-picture{
-        height: 120rem;
-        position: absolute;
-        right: 3rem;
     }
     .portfolio-geometric-picture{
         width: 77rem;
@@ -58,17 +79,98 @@
         right: 2rem;
         top: 1rem;
     }
-    .portfolio-sphere {
+
+}
+
+@media (max-width: 1279px){
+    .behind-greeting-decoration{
+        width: 45rem;
+    }
+    .second-page-picture-{
+        width: 40rem;
+    }
+    .portfolio-shadows-picture{
+        top: 25rem;
+        width: 50rem;
+        height: 40rem;
+    }
+    .portfolio-geometric-picture{
         position: absolute;
-        z-index: 990;
+        top: 0;
+        left: 20rem;
+        width: 40rem;
     }
-    #orange-sphere{
-        left: 0;
+    .picture-layout .sun {
+        left: 1rem;
+        top: 5rem;
+        width: 30rem;
     }
-    #purple-sphere{
-        right: 0;
+    .picture-layout .shadows{
+        width: 0;
+        visibility: hidden;
     }
-    #pink-sphere{
-        left: 0;
+    .picture-layout .geometric{
+        visibility: hidden;
+        width: 0;
+    }
+    .shadows{
+        width: 50rem;
+    }
+    .my-face{
+        width: 15rem;
+    }
+    .shadow-picture{
+        width: 0;
+        visibility: hidden;
+    }
+    .shadows{
+        width: 0;
+        visibility: hidden;
+    }
+    .sphere-image{
+        z-index: 1000;
+        width: 12rem;
+        top: 40rem;
+        right: 41.7rem;
+    }
+}
+@media (max-width: 1000px){
+    .sun{
+        display: none;
+    }
+    .portfolio-geometric-picture{
+        display: none;
+    }
+    .portfolio-shadows-picture{
+        display: none;
+    }
+}
+@media (max-width: 900px){
+    .behind-greeting-decoration{
+        display: none;
+    }
+    .greeting-smaller-dev-decoration{
+        width: 70vw;
+        height: 40rem;
+        display: block;
+        align-self: center;
+        justify-self: center;
+        top: 0;
+    }
+    .my-face{
+        display: none;
+    }
+    .sphere-image{
+        width: 10rem;
+        padding: 2rem;
+    }
+    .portfolio-sphere{
+        display: none;
+    }
+}
+@media (max-width: 500px){
+    .greeting-smaller-dev-decoration{
+        width: 90vw;
+        height: 50vh;
     }
 }
