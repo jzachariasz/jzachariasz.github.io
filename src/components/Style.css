@@ -706,7 +706,7 @@ body {
         font-size: 0.75rem;
     }
     .firstPage{
-        height: 50vh;
+        height: 25vh;
     }
     #first-page-introduction{
         width: 80vw;
@@ -719,20 +719,28 @@ body {
         margin: 10vw 5vw;
     }
     .about-me-div{
-        height: 20vh;
+        height: 15vh;
+        -webkit-box-shadow: none; 
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+    .about-me-div::before{
+        height: 15vh;
     }
     .button-gradient{
         width: 60vw;
-        height: 8vh;
+        height: 4vh;
         margin-top: 0;
         font-size: 12px;
+    }
+    .portfolio-title{
+        margin-bottom: 0;
     }
     .skills-gradient{
         padding: 5vw;
     }
     .skills-smaller-devices-block{
         width: 90vw;
-        height: 40vh;
     }
     .contact-layout{
         box-sizing: border-box;
